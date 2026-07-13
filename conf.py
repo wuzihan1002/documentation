@@ -15,6 +15,8 @@ author = 'wuzihan1002'
 
 extensions = []
 
+extensions = ['sphinx.ext.mathjax']
+
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
