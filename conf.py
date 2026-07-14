@@ -15,6 +15,8 @@ author = 'wuzihan1002'
 
 extensions = ['sphinx.ext.mathjax', 'myst_parser']
 
+myst_enable_extensions = ["dollarmath", "amsmath"]
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
